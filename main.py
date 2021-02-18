@@ -58,8 +58,8 @@ plt.annotate(text = '$2\sqrt{2}$', xy = (2.5,1.5), xytext = (2.5,1.5), fontsize 
 plt.annotate(text = '$w^Tx + b = 0$', xy = (8,4.5), xytext = (7.3,3.8), fontsize = 17)
 plt.annotate(text = '$(\\frac{1}{4},-\\frac{1}{4}) \\binom{x_1}{x_2}- \\frac{3}{4} = 0$', xy = (7.5,4), xytext = (6.7,3.2), fontsize = 19)
 plt.annotate(text = '$\\frac{3}{\sqrt{2}}$', xy = (.5,-1), xytext = (.4,-1.1), fontsize = 16)
-plt.annotate(text = 'SRI AHMAD TSAQIF', xy = (7.2,-3.5), fontsize = 15)
-plt.annotate(text = 'Made with PyPlot', xy = (7.2,-3.8), fontsize = 13)
+plt.annotate(text = 'SRI AHMAD TSAQIF', xy = (7.2,-3.5), fontsize = 15, color = 'red')
+plt.annotate(text = 'Made with PyPlot', xy = (7.2,-3.8), fontsize = 13, color = 'red')
 
 # Labels and show
 plt.xlabel('$x_1$')
